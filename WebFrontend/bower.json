@@ -1,0 +1,20 @@
+{
+  "name": "DirtRallyWebTelemetry",
+  "version": "0.1.0",
+  "authors": [
+    "Rainer ziller <r.ziller@continuum.tv>"
+  ],
+  "description": "WebApplication that communicates with SignalR DirtRallyWebApplication",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.5.6",
+    "signalr": "~2.2.0"
+  }
+}
