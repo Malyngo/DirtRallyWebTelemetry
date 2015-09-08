@@ -31,3 +31,5 @@ F1Speed.Tests/obj/Debug/F1Speed.Tests.csproj.FileListAbsolute.txt
 F1Speed.Core/obj/Debug/F1Speed.Core.csproj.FileListAbsolute.txt
 packages/
 F1Speed/obj/*
+WebFrontend/bower_components/
+WebFrontend/node_modules/
