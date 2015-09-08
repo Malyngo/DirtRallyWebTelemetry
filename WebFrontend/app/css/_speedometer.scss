@@ -1,0 +1,63 @@
+﻿#dashboard {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+
+    > div {
+        width: 100%;
+    }
+
+    #rev {
+        height: 500px;
+        position: absolute;
+
+        line {
+            stroke-width: 2px;
+            stroke: #fff;
+        }
+
+
+
+        path {
+            fill: #000;
+            -moz-transition: fill 0.1s linear;
+            -o-transition: fill 0.1s linear;
+            -webkit-transition: fill 0.1s linear;
+            transition: fill 0.1s linear;
+
+            &.active {
+                fill: #fff;
+
+                &:nth-child(n+40) {
+                    fill: #bb2323;
+                }
+            }
+
+            &.needle {
+                fill: #fff;
+            }
+        }
+    }
+
+
+    .speedometer {
+        font-family: '01-Digit', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 120px;
+
+        #gear {
+            font-size: 160px;
+            margin-bottom: 20px;
+        }
+
+        #speed {
+            display: inline-block;
+            width: 90px;
+            text-align: right;
+            font-size: 60px;
+            margin-right: 0.4em;
+        }
+    }
+}

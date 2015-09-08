@@ -1,0 +1,22 @@
+{
+    "name": "dirtrallywebfrontend",
+    "version": "0.1.0",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "https://continuum-rich-media-lab.visualstudio.com/DefaultCollection/_git/DirtRallyWebTelemetry"
+    },
+    "author": "Rainer Ziller",
+    "license": "ISC",
+    "dependencies": {
+        "requirejs": "~2.1.20"
+    },
+    "devDependencies": {
+        "bower": "^1.4.1",
+        "grunt": "^0.4.5",
+        "grunt-bowercopy": "^1.2.3",
+        "grunt-contrib-clean": "^0.6.0",
+        "grunt-contrib-requirejs": "^0.4.4",
+        "grunt-contrib-copy": "^0.8.0"
+    }
+}

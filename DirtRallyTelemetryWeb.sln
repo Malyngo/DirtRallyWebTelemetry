@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirtRallyConsoleListener", "DirtRallyConsoleListener\DirtRallyConsoleListener.csproj", "{6291E4E6-838A-41EA-A7B9-B5267508DBF4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6D3C8E3D-9346-4BC1-8C7C-6F99222FC8A1} = {6D3C8E3D-9346-4BC1-8C7C-6F99222FC8A1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFrontend", "WebFrontend\WebFrontend.csproj", "{6D3C8E3D-9346-4BC1-8C7C-6F99222FC8A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D0556EB-78D7-4A3E-95B8-A05383E5DC5B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F1Speed.Core", "F1Speed.Core\F1Speed.Core.csproj", "{265741B0-30F4-4E28-A054-BAEE3F6B3A52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F1Speed.Tests", "F1Speed.Tests\F1Speed.Tests.csproj", "{03A28DF6-D633-4E33-A3E6-64E596922C03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F1SpeedCT", "F1SpeedCT\F1SpeedCT.csproj", "{471FB305-89C1-44FD-93EB-723097723F6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6291E4E6-838A-41EA-A7B9-B5267508DBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6291E4E6-838A-41EA-A7B9-B5267508DBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6291E4E6-838A-41EA-A7B9-B5267508DBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6291E4E6-838A-41EA-A7B9-B5267508DBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3C8E3D-9346-4BC1-8C7C-6F99222FC8A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3C8E3D-9346-4BC1-8C7C-6F99222FC8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3C8E3D-9346-4BC1-8C7C-6F99222FC8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3C8E3D-9346-4BC1-8C7C-6F99222FC8A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{265741B0-30F4-4E28-A054-BAEE3F6B3A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265741B0-30F4-4E28-A054-BAEE3F6B3A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265741B0-30F4-4E28-A054-BAEE3F6B3A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265741B0-30F4-4E28-A054-BAEE3F6B3A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A28DF6-D633-4E33-A3E6-64E596922C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A28DF6-D633-4E33-A3E6-64E596922C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A28DF6-D633-4E33-A3E6-64E596922C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A28DF6-D633-4E33-A3E6-64E596922C03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{471FB305-89C1-44FD-93EB-723097723F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471FB305-89C1-44FD-93EB-723097723F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471FB305-89C1-44FD-93EB-723097723F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471FB305-89C1-44FD-93EB-723097723F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
